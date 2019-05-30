@@ -1,9 +1,55 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: 20px;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+.heard { 
+  background-image: url("../images/soup.jpg");
+  width: 100%;
+  height:-webkit-fill-available;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.heard h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+}
+.heard__info {
+  height:200px;
+  justify-content: center;
+  padding: 100px 100px 100px 100px;
+}
+.heard__info--p {
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+.heard__info--img{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ingredients{
+  padding: 0px 100px 100px 100px;
+}
+.ingredients h2{
+  margin-bottom: 30px;
+}
+.ingredients__img{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.direction{
+  padding: 0px 100px 100px 100px;
+}
+.direction h2{
+  margin-bottom: 30px;
 }
